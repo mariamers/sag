@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Users } from "./users";
 import SortableTable from "./SortableTable";
-import axios from "axios";
-
 
 const columns = [
   {
