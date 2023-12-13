@@ -1,0 +1,94 @@
+{
+  "_Breadcrumb-74f78084.js": {
+    "file": "assets/Breadcrumb-74f78084.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "node_modules/web-vitals/dist/web-vitals.js": {
+    "file": "assets/web-vitals-9f4c2f45.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/web-vitals/dist/web-vitals.js"
+  },
+  "resources/js/Pages/IndexTable.jsx": {
+    "file": "assets/IndexTable-158c0940.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/tabelas/Tabelas.jsx",
+      "_Breadcrumb-74f78084.js",
+      "resources/js/Pages/tabelas/users.jsx",
+      "resources/js/Pages/tabelas/SortableTable.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/IndexTable.jsx"
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-e178fc2a.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_Breadcrumb-74f78084.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Welcome.jsx"
+  },
+  "resources/js/Pages/tabelas/ColumnHiding.jsx": {
+    "file": "assets/ColumnHiding-4ed993c7.js",
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/tabelas/ColumnHiding.jsx"
+  },
+  "resources/js/Pages/tabelas/SortableTable.jsx": {
+    "file": "assets/SortableTable-5af3eff4.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/tabelas/SortableTable.jsx"
+  },
+  "resources/js/Pages/tabelas/Tabelas.jsx": {
+    "file": "assets/Tabelas-1c541183.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/tabelas/users.jsx",
+      "resources/js/Pages/tabelas/SortableTable.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/tabelas/Tabelas.jsx"
+  },
+  "resources/js/Pages/tabelas/reportWebVitals.jsx": {
+    "dynamicImports": [
+      "node_modules/web-vitals/dist/web-vitals.js"
+    ],
+    "file": "assets/reportWebVitals-d5374e01.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/tabelas/reportWebVitals.jsx"
+  },
+  "resources/js/Pages/tabelas/users.jsx": {
+    "file": "assets/users-39e7040b.js",
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/tabelas/users.jsx"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-b9a1ed59.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.jsx": {
+    "css": [
+      "assets/app-b9a1ed59.css"
+    ],
+    "dynamicImports": [
+      "resources/js/Pages/IndexTable.jsx",
+      "resources/js/Pages/Welcome.jsx",
+      "resources/js/Pages/tabelas/ColumnHiding.jsx",
+      "resources/js/Pages/tabelas/SortableTable.jsx",
+      "resources/js/Pages/tabelas/Tabelas.jsx",
+      "resources/js/Pages/tabelas/reportWebVitals.jsx",
+      "resources/js/Pages/tabelas/users.jsx"
+    ],
+    "file": "assets/app-2e2be194.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  }
+}
