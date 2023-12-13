@@ -12,3 +12,10 @@ export default defineConfig({
         react(),
     ],
 });
+
+module.exports = {
+    root: 'resources',
+    build: {
+      outDir: '../dist'
+    }
+  }
