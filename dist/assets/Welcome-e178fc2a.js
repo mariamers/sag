@@ -1,0 +1,1 @@
+import{j as s}from"./app-2e2be194.js";import{E as x,B as e}from"./Breadcrumb-74f78084.js";function a(){return s.jsxs(s.Fragment,{children:[s.jsx(x,{}),s.jsx(e,{}),s.jsx("div",{className:"mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8",children:"Links Úteis"})]})}export{a as default};

@@ -3,10 +3,10 @@ import React from 'react'
 
 const Relatorios = () => {
   return (
-    <main class="container mx-auto sm:px-4 mx-auto sm:px-4 gx-5">
-      <h2 class="mt-5 my-2">Filtrar Estatísticas</h2>
-          <div class="relative flex items-stretch w-full mb-3">
-              <label class="input-group-text" for="inputGroupSelect01">Curso: </label>
+    <main class="container mx-auto sm:px-4 mx-auto sm:px-4 gx-5 flex-column gap-4">
+      <h2 class="mt-5 my-2 font-bold ">Filtrar Estatísticas</h2>
+          <div class="relative flex items-stretch w-full mb-3  flex-row gap-4">
+              <label class="input-group-text font-bold" for="inputGroupSelect01">Curso: </label>
               <select class="form-select" id="inputGroupSelect01">
                   <option selected>Choose...</option>
                   <option value="1">One</option>
@@ -14,8 +14,8 @@ const Relatorios = () => {
                   <option value="3">Three</option>
               </select>
           </div>
-          <div class="relative flex items-stretch w-full mb-3">
-              <label class="input-group-text" for="inputGroupSelect01">Função: </label>
+          <div class="relative flex items-stretch w-full mb-3 flex-row gap-4">
+              <label class="input-group-text font-bold" for="inputGroupSelect01">Função: </label>
               <select class="form-select" id="inputGroupSelect01">
                   <option selected>Choose...</option>
                   <option value="1">One</option>
@@ -23,8 +23,8 @@ const Relatorios = () => {
                   <option value="3">Three</option>
               </select>
           </div>
-          <div class="relative flex items-stretch w-full mb-3">
-              <label class="input-group-text" for="inputGroupSelect01">Mês de análise: </label>
+          <div class="relative flex items-stretch w-full mb-3 flex-row gap-4">
+              <label class="input-group-text font-bold" for="inputGroupSelect01">Mês de análise: </label>
               <select class="form-select" id="inputGroupSelect01">
                   <option selected>Choose...</option>
                   <option value="1">One</option>

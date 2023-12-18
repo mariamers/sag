@@ -3,19 +3,15 @@ import laravel from 'laravel-vite-plugin';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: "/sag/",
-    plugins: [
-        laravel({
-            input: 'resources/js/app.jsx',
-            refresh: true,
-        }),
-        react(),
-    ],
+  base: "/sag/",
+  build: {
+    outDir: './dist'
+  },
+  plugins: [
+    laravel({
+      input: 'resources/js/app.jsx',
+      refresh: true,
+    }),
+    react(),
+  ],
 });
-
-module.exports = {
-    root: 'resources',
-    build: {
-      outDir: '../dist'
-    }
-  }

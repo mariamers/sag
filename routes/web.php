@@ -17,9 +17,9 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Welcome');
+    return Inertia::render('Index');
  });
 
- Route::get('/tabelas', function () {
-    return Inertia::render('IndexTable');
+ Route::get('/relatorios', function () {
+    return Inertia::render('Tabelas');
  });
